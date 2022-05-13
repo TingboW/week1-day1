@@ -1,3 +1,4 @@
+/* All Pages / Global Styles */
 header {
     background-image: url("images/central_park.jpg");
     background-size: 1500px;
@@ -40,6 +41,7 @@ nav{
 }
 main{
     /*height:400px; /* fixed height for demo purpose only */
+    margin: 50px;
 }
 main h1 { /* contextual slector */
     color:rgb(129, 141, 179);
@@ -51,4 +53,43 @@ footer{
     text-align: center;
     padding-top: 20px;
     color: rgb(211,218,240);
+}
+
+/* Page 2 Styles */
+table {
+    margin-top: 35px;
+}
+table,caption,th,td { /* group selector*/
+    border: 1px solid #000;
+}
+
+th, td{
+    width:150px;
+    height:35px;
+    text-align:center;
+}
+
+caption {
+    text-transform: uppercase;
+    font-weight: 600;
+    height: 40px;
+    padding-top: 15px;
+    color: #753a30;
+}
+
+/* Page 3 Styles */
+label {
+    display: block;
+    margin: 15px 0 0 0;
+}
+input {
+    width: 300px;
+}
+
+input[name="gender"] { /* attribute selector */
+    width: 25px;
+}
+
+textarea {
+    width:300px;
 }
