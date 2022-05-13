@@ -39,7 +39,7 @@ nav{
     padding-top: 2px;
 }
 main{
-    height:400px; /* fixed height for demo purpose only */
+    /*height:400px; /* fixed height for demo purpose only */
 }
 main h1 { /* contextual slector */
     color:rgb(129, 141, 179);
